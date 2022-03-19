@@ -1,6 +1,6 @@
 # Utilities per predisporre i dati di [TilStat](https://rebuglio.it/tilstat)
 
-Per contribuire, leggi la [sezione apposita](#come-contribuire?).
+Per contribuire, leggi la [sezione apposita](#come-contribuire).
 
 ## Cos'è?
 Questo script è parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; così come altre satistiche sul Politecnico stesso.
@@ -10,7 +10,7 @@ Questo script è parte di [TilStat](https://rebuglio.it/tilstat), un tool che nas
 Ci sono due notebook. `Tilstat scraper 17-18 20-21.ipynb` (poco commentato) consente di leggere le graduatorie fino al 2021 incluso, `Tilstat scraper 21-22.ipynb` (abbastanza commentato) legge le successive. `Tilstat merger.ipynb` legge gli output degli scraper e li trasforma in un formato json ridotto, leggibile da browser.
 
 
-## Come contribuire?
+## Come contribuire
 
 **TL;DR**
 
