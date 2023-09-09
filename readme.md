@@ -2,12 +2,12 @@
 
 Per contribuire, leggi la [sezione apposita](#come-contribuire).
 
-## Cos'è?
-Questo script è parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; così come altre satistiche sul Politecnico stesso.
+## Cos'ï¿½?
+Questo script ï¿½ parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; cosï¿½ come altre satistiche sul Politecnico stesso.
 
 
-## Cosa c'è in questo repo?
-Ci sono due notebook. `Tilstat scraper 17-18 20-21.ipynb` (poco commentato) consente di leggere le graduatorie fino al 2021 incluso, `Tilstat scraper 21-22.ipynb` (abbastanza commentato) legge le successive. `Tilstat merger.ipynb` legge gli output degli scraper e li trasforma in un formato json ridotto, leggibile da browser.
+## Cosa c'ï¿½ in questo repo?
+Ci sono due notebook. `Tilstat scraper 17-18 20-21.ipynb` (poco commentato) consente di leggere le graduatorie di ingegneria fino al 2021 incluso e le altra graduatorie fino ad oggi; `Tilstat scraper 21-22.ipynb` (abbastanza commentato) legge le successive di ingegneria. `Tilstat merger.ipynb` legge gli output degli scraper e li trasforma in un formato json compatto.
 
 
 ## Come contribuire
@@ -25,10 +25,10 @@ poetry install
 poetry run jupyter notebook
 ```
 
-### Perché Poetry?
+### Perchï¿½ Poetry?
 
 
-Il progetto usa [Poetry](https://python-poetry.org/), un tool per Python che gestisce sia dipendenze che virtual-env. Poetry non fa niente più rispetto a _virtualenv_ e _pip freeze_, ma nella mia limitata esperienza tende a farlo _meglio_ e con meno rogne. Dipendenze ed informazioni sul progetto sono salvate **tutte** in un'unico file, `pyproject.toml`, mentre `poetry.lock` è un file tenuto aggiornato automaticamente da Poetry che memorizza l'intera catena delle dipendenze, il che rende di solito indolore spostarsi di macchina. 
+Il progetto usa [Poetry](https://python-poetry.org/), un tool per Python che gestisce sia dipendenze che virtual-env. Poetry non fa niente piï¿½ rispetto a _virtualenv_ e _pip freeze_, ma nella mia limitata esperienza tende a farlo _meglio_ e con meno rogne. Dipendenze ed informazioni sul progetto sono salvate **tutte** in un'unico file, `pyproject.toml`, mentre `poetry.lock` ï¿½ un file tenuto aggiornato automaticamente da Poetry che memorizza l'intera catena delle dipendenze, il che rende di solito indolore spostarsi di macchina. 
 
 #### Crash course:
 
