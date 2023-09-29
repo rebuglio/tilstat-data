@@ -3,7 +3,7 @@
 Per contribuire, leggi la [sezione apposita](#come-contribuire).
 
 ## Cos'è?
-Questo script � parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; cos� come altre satistiche sul Politecnico stesso.
+Questo script è parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; cos� come altre satistiche sul Politecnico stesso.
 
 
 ## Cosa c'è in questo repo?
@@ -25,7 +25,7 @@ poetry install
 poetry run jupyter notebook
 ```
 
-### Perch� Poetry?
+### Perché Poetry?
 
 
 Il progetto usa [Poetry](https://python-poetry.org/), un tool per Python che gestisce sia dipendenze che virtual-env. Poetry non fa niente più rispetto a _virtualenv_ e _pip freeze_, ma nella mia limitata esperienza tende a farlo _meglio_ e con meno rogne. Dipendenze ed informazioni sul progetto sono salvate **tutte** in un'unico file, `pyproject.toml`, mentre `poetry.lock` è un file tenuto aggiornato automaticamente da Poetry che memorizza l'intera catena delle dipendenze, il che rende di solito indolore spostarsi di macchina. 
