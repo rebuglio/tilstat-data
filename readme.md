@@ -2,11 +2,11 @@
 
 Per contribuire, leggi la [sezione apposita](#come-contribuire).
 
-## Cos'�?
+## Cos'è?
 Questo script � parte di [TilStat](https://rebuglio.it/tilstat), un tool che nasce per raccogliere **in modo non-ufficiale** varie statistiche sul **TIL**, il test d'ingresso del Politecnico di Torino; cos� come altre satistiche sul Politecnico stesso.
 
 
-## Cosa c'� in questo repo?
+## Cosa c'è in questo repo?
 Ci sono due notebook. `Tilstat scraper 17-18 20-21.ipynb` (poco commentato) consente di leggere le graduatorie di ingegneria fino al 2021 incluso e le altra graduatorie fino ad oggi; `Tilstat scraper 21-22.ipynb` (abbastanza commentato) legge le successive di ingegneria. `Tilstat merger.ipynb` legge gli output degli scraper e li trasforma in un formato json compatto.
 
 
@@ -28,7 +28,7 @@ poetry run jupyter notebook
 ### Perch� Poetry?
 
 
-Il progetto usa [Poetry](https://python-poetry.org/), un tool per Python che gestisce sia dipendenze che virtual-env. Poetry non fa niente pi� rispetto a _virtualenv_ e _pip freeze_, ma nella mia limitata esperienza tende a farlo _meglio_ e con meno rogne. Dipendenze ed informazioni sul progetto sono salvate **tutte** in un'unico file, `pyproject.toml`, mentre `poetry.lock` � un file tenuto aggiornato automaticamente da Poetry che memorizza l'intera catena delle dipendenze, il che rende di solito indolore spostarsi di macchina. 
+Il progetto usa [Poetry](https://python-poetry.org/), un tool per Python che gestisce sia dipendenze che virtual-env. Poetry non fa niente più rispetto a _virtualenv_ e _pip freeze_, ma nella mia limitata esperienza tende a farlo _meglio_ e con meno rogne. Dipendenze ed informazioni sul progetto sono salvate **tutte** in un'unico file, `pyproject.toml`, mentre `poetry.lock` è un file tenuto aggiornato automaticamente da Poetry che memorizza l'intera catena delle dipendenze, il che rende di solito indolore spostarsi di macchina. 
 
 #### Crash course:
 
