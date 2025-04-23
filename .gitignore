@@ -1,0 +1,33 @@
+# Python cache & compilati
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtuale (pip + venv)
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Jupyter notebook checkpoint
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Log e backup
+*.log
+*~
+
+# React (frontend)
+webapp/node_modules/
+webapp/build/
+webapp/.env.local
+webapp/.env.development.local
+webapp/.env.test.local
+webapp/.env.production.local
