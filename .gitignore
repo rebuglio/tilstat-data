@@ -26,11 +26,31 @@ __pycache__/
 
 # React (frontend)
 webapp/node_modules/
-webapp/build/
+webapp/dist/
+webapp/dist-ssr/
+webapp/logs/
+webapp/*.log
+webapp/npm-debug.log*
+webapp/yarn-debug.log*
+webapp/yarn-error.log*
+webapp/pnpm-debug.log*
+webapp/lerna-debug.log*
 webapp/.env.local
 webapp/.env.development.local
 webapp/.env.test.local
 webapp/.env.production.local
+webapp/*.local
+webapp/.vscode/*
+!webapp/.vscode/extensions.json
+webapp/.idea
+webapp/.DS_Store
+webapp/*.suo
+webapp/*.ntvs*
+webapp/*.njsproj
+webapp/*.sln
+webapp/*.sw?
 
 # Custom
 /data-lab/test-in-laib/intermediate_results/
+/rebuglio.it/
+/webapp/build/

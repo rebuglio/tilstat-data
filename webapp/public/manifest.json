@@ -1,0 +1,15 @@
+{
+  "short_name": "TilStat",
+  "name": "TilStat riporta e riassume in modo semplice ed immediato le graduatorie del TIL, il test di ingresso del Politecnico di Torino.",
+  "icons": [
+    {
+      "src": "ts-icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
