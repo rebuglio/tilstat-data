@@ -31,3 +31,6 @@ webapp/.env.local
 webapp/.env.development.local
 webapp/.env.test.local
 webapp/.env.production.local
+
+# Custom
+/data-lab/test-in-laib/intermediate_results/
